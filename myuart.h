@@ -4,7 +4,6 @@
 #include <stdint.h>
 
 #define DELAY           20000000
-#define BAUDRATE_115200 115200
 #define SPICLOCK_80KHZ  80000
 #define STR_LEN         1024
 #define BUF_LEN         4096
