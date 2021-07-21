@@ -1,7 +1,7 @@
 # Copyright 2019 SiFive, Inc #
 # SPDX-License-Identifier: Apache-2.0 #
 
-PROGRAM ?= hello
+PROGRAM ?= main
 
 $(PROGRAM): $(wildcard *.c) $(wildcard *.h) $(wildcard *.S)
 
