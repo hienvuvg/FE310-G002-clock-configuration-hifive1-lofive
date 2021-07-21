@@ -2,6 +2,8 @@
 
 Supported clock: 64, 128, 256, 320 MHz
 
+Boards: LoFive R1, HiFive1 rev b
+
 UART baudrate needs to be reconfigured after setting a new clock frequency:
 
 Example:
