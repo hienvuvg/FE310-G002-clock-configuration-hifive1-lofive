@@ -1,4 +1,4 @@
-# Clock configuration for RISC-V FE310-G002 Freedom Studio
+# Clock configuration for RISC-V FE310-G002 Freedom Studio (Freedom metal library)
 
 Supported clock: 64, 128, 256, 320 MHz
 
