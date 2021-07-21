@@ -9,3 +9,5 @@ Example:
 cpu_clock_config(320);
 
 uart_init(115200);
+
+Reference: https://github.com/kjarvel/hifive1revb_wifi
