@@ -8,4 +8,4 @@ Example:
 
 cpu_clock_config(320);
 
-uart_init(BAUDRATE_115200);
+uart_init(115200);
