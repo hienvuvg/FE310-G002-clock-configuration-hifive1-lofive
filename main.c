@@ -54,7 +54,7 @@ int main() {
 
 			if (print_mode == 1){
 				cpu_clock_config(320);
-				uart_init(BAUDRATE_115200);
+				uart_init(115200);
 				cpu_clock = metal_clock_get_rate_hz(&__metal_dt_clock_4.clock);
 				printf("Clock frequency: %d\n", cpu_clock);
 			}
