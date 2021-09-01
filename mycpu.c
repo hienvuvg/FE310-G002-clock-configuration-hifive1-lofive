@@ -47,8 +47,8 @@ int cpu_clock_config(int frequency) {
 												// This is within range for vco.
 
 		if (frequency == 256) cfg_temp |= BITS(PLLQ_I, 1U);     		// Divide again.
-												// Q="2U" gives a division ratio of 4.
-												// This gives 512MHz / 1 = 256MHz.
+												// Q="1U" gives a division ratio of 2.
+												// This gives 512MHz / 2 = 256MHz.
 												// This is within range for pllout.
 		if (frequency == 128) cfg_temp |= BITS(PLLQ_I, 2U);     		// Divide again.
 												// Q="2U" gives a division ratio of 4.
